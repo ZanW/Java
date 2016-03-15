@@ -1,12 +1,15 @@
-package chapter4_4$6;
+package chapter3_3$2;
 
 public class GradeBookTest {
 	
 	public static void main(String[] args) {
 		
-		GradeBook myGradeBook = new GradeBook("Comp 5461");	
-		
-		System.out.printf("%s %s\n%s %d","Course name is ", myGradeBook.getCourseName(), "Average Grade of ten courses are ", myGradeBook.averageGrade());
-		
+//		String string = "I love programming";
+	
+	GradeBook test = new GradeBook();
+	
+	test.display();
+	
 	}
+
 }
