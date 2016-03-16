@@ -1,12 +1,10 @@
-package chapter3_3$2;
-
-//create class Gradebook to display a message with medhod displayMEssage
+package chapter3_3$3;
 
 public class GradeBook {
 	
-	public void display() {
+	public void displayMessage(String str) {
 		
-		System.out.println("welcome th the Graade Book!");
+		System.out.printf("%s %s", "welcome to", str);
+		
 	}
-
 }
