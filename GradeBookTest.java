@@ -1,22 +1,15 @@
-package chapter3_3$3;
-
-import java.util.Scanner;
+package chapter3_3$2;
 
 public class GradeBookTest {
 	
 	public static void main(String[] args) {
+		
+//		String string = "I love programming";
 	
-	GradeBook display = new GradeBook();
-	String nameOfCourse = new String();
-	@SuppressWarnings("resource")
-	Scanner input = new Scanner(System.in);
+	GradeBook test = new GradeBook();
 	
-	System.out.println("please input the course name");
+	test.display();
 	
-	nameOfCourse = input.nextLine();
-	
-	display.displayMessage(nameOfCourse);
+	}
 
-	
-    }// end main
-}// end class GradeBookTest
+}
